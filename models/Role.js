@@ -10,7 +10,7 @@ const roleSchema = new mongoose.Schema(
             required: true,
             trim: true,
             unique : true,
-            enum: ["Community Admin", "Community Member"],
+            // enum: ["Community Admin", "Community Member"],
         },
         // Add timestamps for when the document is created and last modified
     },
